@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<!-- 
+    Enlases:conocidos como links popurlarmente.SU OBJETIVO ES CONECTAR UNA PAGINA WEB CON OTRA PAGINA WEB,CON UN RECURSO TANTO COMO INTERNO COMO EXTERNO,O CON OTRO SITIO WEB
+    TIENE EL ATRIBUTO OBLIGATORIO "href",DONDE LE ESPECIFICAMOS LA RUTA DEL RECURSO O SITIO QUE QUEREMOS OBTENER.
+    TAMBIEN TIENE EL ATRIBUTO target,QUE CONFIGURA COMO QUEREMOS VISULIZAR EL RECURSO O SITIO QUE SOLICITAMOS
+
+    Rutas absolutas:
+    TIENE UN PROTOCOLO , HTTP O HTTPS Y SON UNICAS EN LA RED SE SUELE UTILIZAR PARA RUTAS EXTERNAS.
+
+    RUTAS RELATIVAS:
+    PUEDE SER RELATIVA AL PUNTO DONDE NOS ENCONTRAMOS O RELATIVAS A LA RAIZ DEL PROYECTO
+
+    NO USAR PROTOCOLO
+
+    SI EL RECURSO SE ENCUENTRA AL MISMO NIVEL(EN LA MISMA CARPETA)PODREMOS UNICAMENTE EL NOMBRE DEL ARCHIVO.
+
+    SI NECESITAMOS SALIR DE LA CARPETA ACTUAL USAREMOS ../ Y SE PONE UNO POR CADA NIVEL(CARPETA) DE LA QUE QUERAMOS SALIR.
+
+Atributos de los enlases
+    target:define donde se abrira el recurso solicitado.Por normal general siempre que useis rutas absolutas pondreis como valor "_blank" 
+    el valor por defecto es "_self"(es como no poner nada)
+    
+    download:Atributo boobleano,sirve para descargar el recurso solicitado.
+    IMPORTANTE,el recurso debe estar en tu mismo servidor.
+    
+
+ -->
+<body>
+    <H1>Home</H1>
+
+    <nav>
+
+        
+        <p><a href="/paginas/blog.html#post-1">Post1</a></p>
+        <p><a href="/paginas/blog.html#post-2">Post2</a></p>
+        <p><a href="/paginas/blog.html#post-3">Post3</a></p>
+        <p><a href="/paginas/blog.html#post-4">Post4</a></p>
+        <p><a href="/paginas/blog.html#post-5">Post5</a></p>
+        
+    </nav>
+    <a href="/paginas/blog.html">Ir al blog</a>
+  
+        
+   <!-- <a href="http://google.com" download>ir a contacto</a> -->
+        
+        <!-- <a href="/assets/imagenes/gato.jpg" download>descargar gato</a> -->
+
+     <!-- <a href="https://google.com" target="_blank">Ir a google</a> -->
+
+</body>
+</html>
